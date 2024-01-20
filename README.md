@@ -1,1 +1,1 @@
-Just a Facebbok clone
+Just the Facebook's login screen clone

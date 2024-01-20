@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    min-width: 500px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    background-color: red;
+}
+
+/* ------------------------------------------------------------------- */
+
+section {
+    padding-top: 20px;
+    padding-bottom: 164px;
+}
+
+#facebook {
+    width: 400px;
+}
+
+#facebook img {
+    height: 106px;
+}
+
+#facebook p {
+    font-size: 24px;
+    line-height: 28px;
+    width: auto;
+}
