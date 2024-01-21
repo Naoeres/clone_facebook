@@ -33,6 +33,7 @@ section {
 }
 
 #facebook p {
+    color: #1C1E21;
     font-size: 24px;
     line-height: 28px;
     margin-top: 0;
@@ -137,3 +138,44 @@ section {
     line-height: 48px;
     padding: 0 16px;
 }
+
+/* -------------------------------------------------------------- */
+
+@media only screen and (min-width: 900px) {
+
+    section {
+        padding-top: 14px;
+        padding-bottom: 164px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #login-area {
+        position: relative;
+        top: 80px;
+    }
+
+    #facebook {
+        text-align: left;
+        flex-direction: column;
+    }
+
+    #facebook img {
+        position: relative;
+        left: -30px;
+    }
+  }
+
+  @media only screen and (min-width: 1075px) {
+    #facebook {
+        text-align: left;
+        flex-direction: column;
+        font-size: 28px;
+        width: 500px;
+    }
+
+    #facebook p {
+        font-size: 28px;
+    }
+  }
